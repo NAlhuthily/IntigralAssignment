@@ -22,7 +22,7 @@ public class AddDeviceTest {
     @BeforeSuite
     public void beforeSuite() {
         extent = new ExtentReports();
-        ExtentSparkReporter spark = new ExtentSparkReporter("C:\\Users\\NAlhu\\Documents\\IntigralAssignment\\reports\\AddDeviceTestReport.html");
+        ExtentSparkReporter spark = new ExtentSparkReporter("reports\\AddDeviceTestReport.html");
         extent.attachReporter(spark);
     }
 

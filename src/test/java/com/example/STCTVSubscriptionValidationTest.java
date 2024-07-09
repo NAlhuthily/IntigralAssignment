@@ -30,7 +30,7 @@ public class STCTVSubscriptionValidationTest {
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
         //Set up ExtentSparkReporter 
-        ExtentSparkReporter spark = new ExtentSparkReporter("C:\\Users\\NAlhu\\Documents\\IntigralAssignment\\reports\\STCTVSubscriptionValidationTestReport.html");
+        ExtentSparkReporter spark = new ExtentSparkReporter("reports\\STCTVSubscriptionValidationTestReport.html");
         extent = new ExtentReports();
         extent.attachReporter(spark);
 
