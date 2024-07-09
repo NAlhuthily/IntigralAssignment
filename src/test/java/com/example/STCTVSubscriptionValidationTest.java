@@ -57,7 +57,6 @@ public class STCTVSubscriptionValidationTest {
         
         driver.get("https://subscribe.stctv.com/sa-en");
 
-        // Create a new test entry in the ExtentReports
         test = extent.createTest("Subscription Validation for " + country);
 
         WebElement countrySelector = driver.findElement(By.cssSelector("#country-btn"));
@@ -96,6 +95,6 @@ public class STCTVSubscriptionValidationTest {
             driver.quit();
         }
 
-        extent.flush(); // Ensure all information is written to the report
+        extent.flush();
     }
 }
